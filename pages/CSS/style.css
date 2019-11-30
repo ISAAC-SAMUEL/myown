@@ -1,0 +1,7 @@
+*{
+    background-color: rgb(184, 182, 177)
+}   
+body{
+    background-image: url("/batman.jpg");
+    background-size: cover;
+}

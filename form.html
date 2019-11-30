@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html form</title>
+</head>
+<body>
+<form action="./heading.html" target="top" method="GET">
+    <fieldset>
+        <legend>personal information</legend>
+ first Name;<br>
+ <input type="text" name="first name" placeholder="Samuel" style="color: brown"><br>
+ Last name;<br>
+ <input type="text" name="last name" value="Chukwuka"><br>
+<input type="submit" value="submit">
+</form>
+<form> 
+    <input type="radio" name="gender" value="male">male <br>
+    <input type="radio" name="gender" value="female">female <br>
+    <input type="radio" name="gender" value="other">other <br>
+</fieldset>
+</form>
+<form action="./pages/about.html">
+<select name="cars" id="cars">
+    <option value="">camry</option>
+    <option value="">audi</option>
+    <option value="">volvo</option>
+    <option selected value=""> Pathfinder</option>
+</select>
+<form action="./pages/about.html">
+<input type="submit" value="submit">
+<input list="food">
+<datalist id="food">
+    <option value="rice">rice</option>
+    <option value="beans">beans</option>
+    <option value="spagetti">spagetti</option>
+    <option value="yam">yam</option>
+</datalist>
+<input type="submit" name="submit" value="submit">
+
+</form><br>
+<input type="email" name="email" placeholder="email" style="padding: 10px;border-left: black solid 20px"><br> <p></p>
+<input type="password" name="password" placeholder="password" style="padding-left: 10px;border-left:solid black 20px"><br>
+<input type="button" value="login" style="background-color: skyblue; color: white; padding: 10px; border-radius: 2px;">
+<input type="checkbox" name="checkbox" id="">Remember Me    
+</body>
+</html>
